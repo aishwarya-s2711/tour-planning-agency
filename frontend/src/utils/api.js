@@ -6,7 +6,7 @@ import axios from 'axios';
  * In prod: set VITE_API_URL in frontend .env
  */
 const api = axios.create({
-  baseURL: 'https://tour-planning-agency-3.onrender.com/',
+  baseURL: 'https://tour-planning-agency-3.onrender.com/api',
   timeout: 12000,
   headers: { 'Content-Type': 'application/json' },
 });
